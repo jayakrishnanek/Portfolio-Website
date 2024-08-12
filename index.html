@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" >
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Jayakrishnan E K</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Welcome Humans !</p>
+            <span></span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#publications" class="nav-link">Publications</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>JAYAKRISHNAN E K</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Do you want to hear better stories than your grandparents? Data Analyst is here.
+                </p>
+            </div>
+            <div class="social_icons">
+                <div class="icon" onclick="location.href='mailto:mail@jayakrishnanek.tech'"><i class="fa-solid fa-envelope"></i></i></div>
+                <div class="icon" onclick="location.href='https://www.linkedin.com/in/jayakrishnanek'"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon" onclick="location.href='https://github.com/jayakrishnanek'"><i class="fa-brands fa-github"></i></div>
+                <div class="icon" onclick="location.href='https://www.hackerrank.com/profile/jayakrishnanek71'"><i class="fa-brands fa-hackerrank"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="image-website.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#projects" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+      
+     <section class="section" id="projects">
+  <div class="top-header">
+    <h1>Projects</h1>
+  </div>
+  <div class="project-container">
+    <div class="project-box">
+      <div class="project-image">
+        <img src="water-quality.jpg" alt="Water Quality">
+      </div>
+      <div class="project-text">
+        <h3>Water Quality Prediction Using Machine Learning Classification Algorithm</h3>
+        <span class="highlight"><b>PYTHON</b> </span>
+        <p>Libraries Used : <b>Pandas,Matplotlib,Sklearn.</b><br>
+            
+            Models Used : <b>Decision Tree Classifier,GaussianNB,MLPClassifier.</b><br> This Project aims to develop a predictive model for water quality that can help identify potential contamination sources and mitigate associated risks. The project also select many attributes such as bacteria,virus,ammonia,aluminium etc, to train a machine learning model that can accurately predict water quality at different locations and time periods. The predictive model will be validated using historical data and evaluated based on its performance in predicting water quality changes under different scenarios.</p>
+        
+        <button class="btn" onclick="location.href='https://github.com/jayakrishnanek/Water-Quality-Prediction'">Details <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+      </div>
+    </div>
+    
+    <div class="project-box">
+      <div class="project-image">
+        <img src="apple-quality.jpg" alt="Apple Quality">
+      </div>
+      <div class="project-text">
+        <h3>APPLE QUALITY PREDICTOR</h3>
+        <span class="highlight"><b>PYTHON</b> </span>
+        <p>Libraries Used : <b>Pandas,Matplotlib,Sklearn,seaborn</b><br>
+            
+            Models Used : <b>Logistic Regression,Random Forest Classifier.</b><br> In this project, The data analytics and machine learning to revolutionize the assessment of apple quality. Using a diverse dataset encompassing attributes such as size, weight, sweetness, and acidity, our focus is on predicting the quality labels of apples using advanced algorithms. The RandomForest Classifier and Logistic Regression models are used, The robust performance is evaluated through various evaluation metrics.<br>
+        </p>
+        
+        <button class="btn" onclick="location.href='https://github.com/jayakrishnanek/Apple-Quality-Predictor'">Details <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+      </div>
+    </div>
+    
+    <div class="project-box">
+      <div class="project-image">
+        <img src="stock-market.jpg" alt="Stock Market">
+      </div>
+      <div class="project-text">
+        <h3>STOCKMARKET ANALYSIS AND
+            PREDICTION</h3>
+        <span class="highlight"><b>R Programming</b> </span>
+        <p>A stock market analysis project developed using R Shiny is a sophisticated and interactive web application designed to empower users in their
+            exploration, visualization, and in-depth analysis of financial market data.
+            This project's primary objective is to provide a user-friendly platform that
+            caters to both novice and experienced investors, enabling them to make well informed investment decisions. The application connects to data sources
+            such as Yahoo Finance to fetch real-time or historical stock market data
+            and presents it to users in an intuitive and interactive manner. Key features
+            include the ability to customize the analysis by selecting specific stocks, defining time periods, and choosing from a wide range of financial indicators.</p>
+        
+        <button class="btn" onclick="location.href='https://github.com/jayakrishnanek/Stock-Market-Analysis-and-Prediction-Using-R'">Details <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+       <!-- -------------- PUBLICATIONS ---------------- -->
+       <section class="section" id="publications">
+          <div class="top-header">
+            <h1>Publications</h1>
+          </div>
+          <div class="publication-title">
+            <h3>Refining the Knowledge Discovery Process: Introducing a Data Management Phase for Ethical and Efficient Post- Analysis Data Handling</h3>
+             <p>Abstract: In the evolving landscape of Knowledge Discovery in Databases (KDD), the efficient management of data post-discovery emerges as a pivotal yet often overlooked consideration. This research proposes an innovative extension to the conventional KDD process by introducing a "Data Management" focused on the crucial decision-making regarding data deletion or data compression after knowledge has been extracted. This addition aims to address the multifaceted
+                challenges of ethical considerations, security vulnerabilities, and storage inefficiencies that accompany large datasets in the post-analysis phase. Through a comprehensive exploration of the KDD process, including an analysis of existing methodologies and the integration of our proposed step, we elucidate the significant impact of data management on enhancing the ethical, secure, and efficient utilization of database information. Our findings highlight the necessity for a standardized approach to data retention or reduction, providing clear guidelines that balance organizational needs with legal and ethical standards. This paper not only contributes to the academic discourse on KDD process optimization but also offers practical insights for organizations striving to navigate the complexities of data management in an ethically responsible and resource-efficient manner.
+             </p>
+             <div class="pub-btn">
+                <button class="btn" onclick="location.href='https://www.ijfmr.com/research-paper.php?id=15438'">Research Paper</>   <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+             </div>
+           </div>
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1> <i class="fa-sharp fa-solid fa-triangle-exclamation"></i>     ONLY HUMANS IS ALLOWED TO READ THE FOLLOWING !</h1>
+            <span class="footer-msg">If you reach till here, which means you spent atleast 1 second of your life to spent on my website,So i wish to connect you through LinkedIn.You should message me on LinkedIn,it's Mandatory* (use 'hello from website' as first message to avoid starting trouble), A gift is waiting for you.Have a nice day :⁠-⁠).</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email:mail@jayakrishnanek.tech</p>
+                    <p><i class="fa-brands fa-linkedin"></i>Linkedin:Jayakrishnan E K</p>
+                </div>
+             </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p></p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <!-- <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li> -->
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#publications">Publications</a>
+                </li>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+                <div class="icon" onclick="location.href='mailto:mail@jayakrishnanek.tech'"><i class="fa-solid fa-envelope"></i></i></div>
+                <div class="icon" onclick="location.href='https://www.linkedin.com/in/jayakrishnanek'"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon" onclick="location.href='https://github.com/jayakrishnanek'"><i class="fa-brands fa-github"></i></div>
+                <div class="icon" onclick="location.href='https://www.hackerrank.com/profile/jayakrishnanek71'"><i class="fa-brands fa-hackerrank"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <div class="hover-text">
+                Thanks
+                <span class="hover-message">
+                    Created with HTML, CSS, JavaScript in Visual Studio Code. Special mention to myself for persistence and patience also for drafting proper questions to extract answers from the internet. Huge shoutout to John Doe, Content Creators on YouTube, GPT from OpenAI for staying with me.
+                </span>
+            </div>
+            
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="Main.js"></script>
+</body>
+</html>
